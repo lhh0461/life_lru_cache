@@ -5,10 +5,10 @@
 
 ## 使用方法
 ```
-	cache := NewLRUCache[int, int](3)
+    cache := NewLRUCache[int, int](3)
 
     //设置数据
-	cache.Set(1, 1, time.Minute)
+    cache.Set(1, 1, time.Minute)
 
     //获取数据
     value, ok := cache.Get(1)
